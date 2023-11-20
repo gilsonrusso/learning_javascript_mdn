@@ -7,7 +7,7 @@ const items = [
 const result = items.reduce((accumulator, current) => {
     return accumulator + (current.price * current.quantity)
 }, 0)
-console.log(result)
+console.log({result})
 
 const names = ["Daniel", "Maria", "Marta", "Juca", "João", "Jessica"]
 const resultNames = names.reduce((acc: any, curr: string) => {
@@ -16,7 +16,7 @@ const resultNames = names.reduce((acc: any, curr: string) => {
     return acc 
 }, {})
 
-console.log(resultNames)
+console.log({resultNames})
 
 interface IPeople {
     name: string,
@@ -35,5 +35,5 @@ const sortPeopleByAge = people.reduce((acc: any, curr: IPeople) => {
     return acc
 }, {})
 
-console.log('>>>> sortPeopleByAge', sortPeopleByAge);
+console.log('>>>> sortPeopleByAge', {sortPeopleByAge});
 

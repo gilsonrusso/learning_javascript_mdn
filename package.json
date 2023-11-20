@@ -1,0 +1,33 @@
+{
+  "name": "learning_javascript_mdn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx src/server.ts",
+    "start:dev": "tsx watch src/server.ts",
+    "build": "tsup src",
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gilsonrusso/learning_javascript_mdn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gilsonrusso/learning_javascript_mdn/issues"
+  },
+  "homepage": "https://github.com/gilsonrusso/learning_javascript_mdn#readme",
+  "devDependencies": {
+    "@types/typescript": "^2.0.0",
+    "tsup": "^8.0.0",
+    "tsx": "^4.1.4",
+    "typescript": "^5.3.2",
+    "vitest": "^0.34.6"
+  },
+  "dependencies": {
+    "zod": "^3.22.4"
+  }
+}
